@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* INDEX.HTML */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(28, 184, 223);
+    min-height: 20vh;
+}
+
+.header a img{
+    width: 150px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.main{
+    min-height: 70vh;
+}
+
+.main-index{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+
+}
+
+main img{
+    max-width: 500px;
+  
+}
+
+
+
+.footer{
+    background-color: rgb(240, 83, 245);
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS→PRODUCTOS */
+
+
+
+/* CSS→PREGUNTAS */
+
+.main{
+    min-height: 70vh;
+}
+
+/* CSS→NOSOTROS */
+
+.main{
+    min-height: 70vh;
+}
+
+/* CSS→CONTACTO */
+
+
+@media (max-width:619px) {
+    .header{
+        justify-content: center;
+    }
+    .nav ul{
+        width: 350px;
+    }
+}
