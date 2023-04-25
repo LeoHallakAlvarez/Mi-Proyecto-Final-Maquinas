@@ -58,7 +58,7 @@ main img{
     align-items: center;
 }
 
-/* CSS→PRODUCTOS */
+/* CSS→PRODUCTOS */ 
 
 .nav-productos ul{
     display: flex;
@@ -134,6 +134,11 @@ main img{
     animation-duration: 2s;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
 
 
 /* CSS→CONTACTO */
@@ -146,6 +151,6 @@ main img{
         justify-content: center;
     }
     .nav ul{
-        width: 350px;
+        width: 500px;
     }
 }
