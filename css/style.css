@@ -73,7 +73,8 @@ main img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
 
 }
 
@@ -81,6 +82,10 @@ main img{
     height: 120px;
 
 }
+
+.flex-padre p img{
+    text-align: center;
+} 
 
 
 
@@ -142,7 +147,6 @@ main img{
 
 
 /* CSS→CONTACTO */
-
 
 
 
