@@ -60,6 +60,28 @@ main img{
 
 /* CSS→PRODUCTOS */
 
+.nav-productos ul{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    justify-content: space-around
+    
+}
+
+.flex-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flex-padre img{
+    height: 120px;
+
+}
+
 
 
 /* CSS→PREGUNTAS */
@@ -97,7 +119,26 @@ main img{
     min-height: 70vh;
 }
 
+.btn-prueba{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 6px 7px 6px rgb(red, green, blue) inset;
+}.btn-prueba :hover{
+    transform: scale(1.05);
+    transition: 2s transform, 3s color;
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+
+
 /* CSS→CONTACTO */
+
+
 
 
 @media (max-width:619px) {
